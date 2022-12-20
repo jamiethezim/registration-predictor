@@ -65,6 +65,7 @@ def main(directory):
 
 
 if __name__ == "__main__":
+    # example usage: python3 model_builder.py -d ~/Downloads/example_input.csv
     parser = argparse.ArgumentParser()
     parser.add_argument("--directory", "-d", type=str, required=True)
     args = parser.parse_args()
